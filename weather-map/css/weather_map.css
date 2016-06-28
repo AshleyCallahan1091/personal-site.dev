@@ -1,0 +1,47 @@
+div.day {
+	border: 1px solid black;
+	margin: 20px;
+	text-align: center;
+	width: 200px;
+	float: left;
+	background:rgba(0,0,0,0.5);
+	color: #FF69B4;
+}
+
+body{
+	background-image: url("field_Fotor.jpg");
+}
+
+#header-container{
+	background:#7f7f7f;
+    background:rgba(0,0,0,0.5);
+    font-family: 'Atma', cursive;
+    color: #FF69B4;
+    text-align: center;
+}
+
+
+/*#cityInput {
+
+	position: relative;
+	float: left;
+}*/
+
+
+#map {
+
+	width: 400px;
+	height: 400px;
+	margin-left: 62%;
+
+
+
+}
+
+*{
+	font-family: 'Atma', cursive;
+	color: #FF69B4;
+	
+}
+
+             
