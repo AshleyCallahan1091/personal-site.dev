@@ -184,7 +184,7 @@ ul {
     /* IE7 and lower use default */
    
 }
-li:before {
+.resume-stuff {
     content: '\22C6\A0';
 }
 #stevesays{
