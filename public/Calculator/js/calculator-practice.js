@@ -57,22 +57,15 @@ function eraseBadMath () {
 	textSecond.value = "";
 }
 
-function addDecimal(){
-	if (textFirst.value == "0") {
-		textFirst.value = "0." + textFirst.value
-	} else if (textFirst.value !== "") {
-		textFirst.value = textFirst.value + ".";
-	} else if (textFirst !== "" && operatorMagic.value !== "" && textSecond.value == "") {
-		textSecond.value = "0." + textSecond.value;
-	} else if (textFirst !== "" && operatorMagic.value !== "" && textSecond.value !== ""){
-		textSecond.value = textSecond.value + ".";
-	}
+
+
+function notToday (){
+	alert('Not today!');
+	eraseBadMath();
 }
-
-
 
  
 
 clear();
 equalsMagic.addEventListener("click", doMath); 
-decimal.addEventListener("click", addDecimal);
+decimal.addEventListener("click", notToday);
