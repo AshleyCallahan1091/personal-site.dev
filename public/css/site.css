@@ -190,3 +190,11 @@ ul {
 #stevesays{
     cursor: pointer;
 }
+
+.blog-title{
+    text-align: center;
+}
+
+#signature{
+    font-family: 'Mogra', cursive;
+}
