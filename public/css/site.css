@@ -178,7 +178,7 @@ a.btn-social,
     font-size: small;
 }
 ul {
-    list-style:none;
+   
     padding: 0 0 0 2em;     /* padding includes space for character and its margin */
 
     /* IE7 and lower use default */
@@ -198,3 +198,4 @@ ul {
 #signature{
     font-family: 'Mogra', cursive;
 }
+
