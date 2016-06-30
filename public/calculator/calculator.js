@@ -33,13 +33,13 @@ for (var i = 0; i < operationButtons.length; i++) {
 function doMath () {
 
 	if (operatorMagic.value == "+") {
-		textFirst.value = parseInt(textFirst.value) + parseInt(textSecond.value); 
+		textFirst.value = parseFloat(textFirst.value) + parseFloat(textSecond.value); 
 	} else if (operatorMagic.value == "-") {
-		textFirst.value = parseInt(textFirst.value) - parseInt(textSecond.value); 
+		textFirst.value = parseFloat(textFirst.value) - parseFloat(textSecond.value); 
 	} else if (operatorMagic.value == "/") {
-		textFirst.value = parseInt(textFirst.value) / parseInt(textSecond.value); 
+		textFirst.value = parseFloat(textFirst.value) / parseFloat(textSecond.value); 
 	} else if (operatorMagic.value == "x") {
-		textFirst.value = parseInt(textFirst.value) * parseInt(textSecond.value); 
+		textFirst.value = parseFloat(textFirst.value) * parseFloat(textSecond.value); 
 	} 
 	textSecond.value = '';
 	operatorMagic.value = '';
@@ -64,8 +64,27 @@ function notToday (){
 	eraseBadMath();
 }
 
+function addDecimal(){
+	var decimalValue = decimal.getElementById("decimal").getAttribute("data-value")
+	if (operatorMagic.value == "") {
+		if (textFirst.value == "") {
+			textFirst.value = "0" + decimalValue;
+		} else {
+			textFirst.value = parseInt(textFirst.value) + decimalValue;
+		}
+		}
+	else {
+		if (textSecond.value == "") {
+			textSecond.value = "0" + decimalValue;
+		} else {
+			textSecond.value = parseInt(textSecond.value) + decimalValue;
+		}
+	}
+}
+
+
  
 
 clear();
 equalsMagic.addEventListener("click", doMath); 
-decimal.addEventListener("click", notToday);
+decimal.addEventListener("click", addDecimal);
