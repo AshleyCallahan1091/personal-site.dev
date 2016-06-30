@@ -199,3 +199,12 @@ ul {
     font-family: 'Mogra', cursive;
 }
 
+.imagesize{
+    width: 70%;
+    height: 70%;
+
+}
+
+.imagesmargin{
+    margin-left: -2%;
+}
