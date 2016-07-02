@@ -177,13 +177,13 @@ a.btn-social,
     font-family: 'Atma', cursive;
     font-size: small;
 }
+   
 ul {
-   
     padding: 0 0 0 2em;     /* padding includes space for character and its margin */
-
     /* IE7 and lower use default */
-   
 }
+
+   
 .resume-stuff {
     content: '\22C6\A0';
 }
@@ -202,8 +202,8 @@ ul {
 .imagesize{
     width: 70%;
     height: 70%;
-
 }
+
 
 .imagesmargin{
     margin-left: -2%;
