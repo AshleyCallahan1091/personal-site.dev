@@ -65,8 +65,14 @@ function notToday (){
 }
 
 function addDecimal(){
-	var decimalValue = decimal.getElementById("decimal").getAttribute("data-value")
+	var decimalValue = document.getElementById("decimal").getAttribute("data-value")
 	if (operatorMagic.value == "") {
+		console.log(textFirst.value.indexOf(decimalValue) != -1, decimalValue);
+
+		if (textFirst.value.indexOf(decimalValue) != -1) {
+			return;
+		}
+
 		if (textFirst.value == "") {
 			textFirst.value = "0" + decimalValue;
 		} else {
@@ -74,6 +80,10 @@ function addDecimal(){
 		}
 		}
 	else {
+		if (textSecond.value.indexOf(decimalValue) != -1) {
+			return;
+		}
+
 		if (textSecond.value == "") {
 			textSecond.value = "0" + decimalValue;
 		} else {
