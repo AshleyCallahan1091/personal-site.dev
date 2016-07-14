@@ -57,13 +57,6 @@ function eraseBadMath () {
 	textSecond.value = "";
 }
 
-
-
-function notToday (){
-	alert('Not today!');
-	eraseBadMath();
-}
-
 function addDecimal(){
 	var decimalValue = document.getElementById("decimal").getAttribute("data-value")
 	if (operatorMagic.value == "") {
@@ -91,9 +84,6 @@ function addDecimal(){
 		}
 	}
 }
-
-
- 
 
 clear();
 equalsMagic.addEventListener("click", doMath); 
