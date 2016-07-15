@@ -20,28 +20,22 @@ body{
     text-align: center;
 }
 
-
 /*#cityInput {
 
 	position: relative;
 	float: left;
 }*/
 
-
 #map {
 
 	width: 400px;
 	height: 400px;
 	margin-left: 62%;
-
-
-
 }
 
 *{
 	font-family: 'Atma', cursive;
 	color: #FF69B4;
-	
 }
 
              
