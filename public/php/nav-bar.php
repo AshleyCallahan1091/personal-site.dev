@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-			<a class="navbar-brand" href="index.html">McSmash Designs</a>
+			<a class="navbar-brand" href="index.php">McSmash Designs</a>
 		</div>
 			<nav class="navbar navbar-default" role="navigation"> 
 				<div class="container"> 
