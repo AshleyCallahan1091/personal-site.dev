@@ -169,8 +169,7 @@ a.btn-social, .btn-social {
 }
    
 ul {
-    padding: 0 0 0 2em;     /* padding includes space for character and its margin */
-    /* IE7 and lower use default */
+    padding: 0 0 0 2em;
 }
 
 .resume-stuff {
@@ -181,7 +180,7 @@ ul {
     cursor: pointer;
 }
 
-.blog-title {
+.blog-center {
     text-align: center;
 }
 
@@ -197,3 +196,32 @@ ul {
 .imagesmargin {
     margin-left: -2%;
 }
+
+.blog {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+.blog-left {
+    text-align: left;
+}
+
+.list {
+    text-align: left;
+}
+
+.blog-small {
+    font-size: 15px;
+}
+
+.signature {
+    font-family: 'Gloria Hallelujah', cursive; 
+    font-size: 30px;
+}
+
+.blog-big {
+    font-size: 25px;
+}
+
+
+
