@@ -1,8 +1,14 @@
+<?php
+  header( 'Location: personal-site.dev/index.html' );
+  exit();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		
 		<?php include 'php/needed-files.php'; ?>
+
 
 		<title>McSmash Designs</title>
 	</head>
