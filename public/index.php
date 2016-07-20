@@ -5,8 +5,6 @@
 		<?php include 'php/needed-files.php'; ?>
 
 		<title>McSmash Designs</title>
-
-
 	</head>
 	<body>
 		<?php include 'php/header.php'; ?>
