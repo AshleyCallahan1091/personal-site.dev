@@ -1,5 +1,5 @@
 <?php
-  header( 'Location: personal-site.dev/index.html' );
+  header( 'Location: http://www.ashleymariecallahan.com' );
   exit();
 ?>
 
