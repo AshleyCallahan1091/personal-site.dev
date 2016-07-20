@@ -1,7 +1,4 @@
-<?php
-  header( 'Location: http://www.ashleymariecallahan.com/index.php' );
-  exit();
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
