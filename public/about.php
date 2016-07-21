@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'php/needed-files.php'; ?>
+		<?php include 'php/needed-files.html'; ?>
 
 		<title>About - McSmash Designs</title>
 	</head>
 	<body>
-		<?php include 'php/header.php'; ?>
-		<?php include 'php/nav-bar.php'; ?>
+		<?php include 'php/header.html'; ?>
+		<?php include 'php/nav-bar.html'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="box">
@@ -90,10 +90,6 @@
 			</div>
 		</div>
 		<!-- /.container -->
-		<?php include 'php/footer.php'; ?>
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<?php include 'php/footer.html'; ?>
 	</body>
 </html>

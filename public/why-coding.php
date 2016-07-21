@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<title>Why Coding?</title>
-		<?php include 'php/needed-files.php'; ?>
+		<?php include 'php/needed-files.html'; ?>
 	</head>
 	<body>
-		<?php include 'php/header.php'; ?>
-		<?php include 'php/nav-bar.php'; ?>
+		<?php include 'php/header.html'; ?>
+		<?php include 'php/nav-bar.html'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="box">
@@ -23,7 +23,7 @@
 							<br>
 							<small>June 29.2016</small>
 						</h2><br>
-						<?php include 'php/share-buttons.php'; ?>
+						<?php include 'php/share-buttons.hmtl'; ?>
 						<br><br>
 
 						<img class="img-responsive img-border img-center" src="img/blogpic_Fotor.jpg" alt="Why coding? What could possibly be so exciting about that? Short answer? Creating something amazing with a few simple keystrokes.">
@@ -58,14 +58,14 @@
 						<p class="blog">What&#39;s stopping you?</p>
 						<p></p>
 
-						<?php include 'php/signature.php'; ?>
+						<?php include 'php/signature.html'; ?>
 			   
 			   			<a href="blog.html" class="btn btn-default btn-lg">Back</a>
 					</div>	
 				</div>
 			</div>
 		</div>		
-		<?php include 'php/footer.php'; ?>
+		<?php include 'php/footer.html'; ?>
 	   
 	</body>
 </html>

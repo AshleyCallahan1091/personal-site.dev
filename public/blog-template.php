@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include 'php/needed-files.php'; ?>
+		<?php include 'php/needed-files.html'; ?>
 		<title>Title</title>
 	</head>
 	<body>
-		<?php include 'php/header.php'; ?>
-		<?php include 'php/nav-bar.php'; ?>
+		<?php include 'php/header.html'; ?>
+		<?php include 'php/nav-bar.html'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="box">
@@ -23,7 +23,7 @@
 							<br>
 							<small>Date</small>
 						</h2><br>
-						<?php include 'php/share-buttons.php'; ?>
+						<?php include 'php/share-buttons.html'; ?>
 						<br><br>
 
 						<img class="img-responsive img-border img-center" src="img/maximizing-technology.jpg" alt="How I own technology instead of letting it own me.">
@@ -36,13 +36,13 @@
 
 						<p></p>
 						
-						<?php include 'php/signature.php'; ?>
+						<?php include 'php/signature.html'; ?>
 			   
 			   			<a href="blog.html" class="btn btn-default btn-lg">Back</a>
 					</div>	
 				</div>
 			</div>
 		</div>	
-		<?php include 'php/footer.php'; ?>	
+		<?php include 'php/footer.html'; ?>	
 	</body>
 </html>

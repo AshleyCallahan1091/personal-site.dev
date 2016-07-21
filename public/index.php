@@ -4,14 +4,14 @@
 <html lang="en">
 	<head>
 		
-		<?php include 'php/needed-files.php'; ?>
+		<?php include 'php/needed-files.html'; ?>
 
 
 		<title>McSmash Designs</title>
 	</head>
 	<body>
-		<?php include 'php/header.php'; ?>
-		<?php include 'php/nav-bar.php'; ?>
+		<?php include 'php/header.html'; ?>
+		<?php include 'php/nav-bar.html'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="box">
@@ -108,7 +108,7 @@
 		</div>
 		<!-- /.container -->
 		
-		<?php include 'php/footer.php'; ?>
+		<?php include 'php/footer.html'; ?>
 
 	</body>
 </html>
