@@ -63,7 +63,7 @@
 						
 						<?php include 'php/signature.html'; ?>
 			   
-			   			<a href="blog.html" class="btn btn-default btn-lg">Back</a>
+			   			<a href="blog.php" class="btn btn-default btn-lg">Back</a>
 					</div>	
 				</div>
 			</div>
