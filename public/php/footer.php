@@ -1,5 +1,4 @@
-<?php
-	echo '<footer>
+<footer>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
@@ -18,6 +17,5 @@
 		<!--Google Maps API-->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd1TXiwJvWwwc7wFYtny6B62-l2JkMZ4E"></script>
 		<!--Custom JavaScript-->
-		<script src="js/site.js"></script>';
+		<script src="js/site.js"></script>
 
-?>

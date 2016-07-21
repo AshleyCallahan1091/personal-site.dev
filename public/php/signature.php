@@ -1,3 +1,1 @@
-<?php 
-	echo '<p class="signature"> -Ashley</p>';
-?>
+<p class="signature"> -Ashley</p>

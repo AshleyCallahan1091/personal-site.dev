@@ -1,5 +1,4 @@
-<?php
-	echo '<div class="navbar-header">
+<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only"></span>
 				<span class="icon-bar"></span>
@@ -32,6 +31,4 @@
 					<!-- /.navbar-collapse -->
 				</div>
 			<!-- /.container -->
-			</nav>';
-
-?>
+			</nav>

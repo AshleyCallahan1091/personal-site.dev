@@ -1,6 +1,4 @@
-<?php echo 
-
-		'<meta name="p:domain_verify" content="eaffacee9e72c8df4d800e6e1041043d"/>
+<meta name="p:domain_verify" content="eaffacee9e72c8df4d800e6e1041043d"/>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,8 +31,4 @@
 			<!--Share button scripts-->
 		<script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-		<script type="text/javascript">stLight.options({publisher: "63a83be7-2bfa-47c1-8042-f8403cc1d615", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>'
-
-
-
-;?>
+		<script type="text/javascript">stLight.options({publisher: "63a83be7-2bfa-47c1-8042-f8403cc1d615", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
