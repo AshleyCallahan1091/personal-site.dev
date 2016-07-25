@@ -16,6 +16,20 @@
 						<h2 class="intro-text text-center">McSmash Designs <strong>blog</strong></h2>
 						<hr>
 					</div>
+
+					<div class="col-lg-12 text-center">
+						<h2>Coding Isn&#39;t Perfect
+							<br>
+							<small>July 26.2016</small>
+						</h2>
+						<p class="blog-left"><span class="blog">Coding is hard. </span>Being a mom is hard. Being a wife is hard. Going to school full-time is hard. Last week was hard, to be honest. </p> 
+						<br>
+						<a href="coding-isnt-perfect.php" class="btn btn-default btn-lg">Read More</a>
+						<hr>
+
+						<br>
+					</div>
+
 					<div class="col-lg-12 text-center">
 						<h2>Maximizing Time With Technology
 							<br>
@@ -26,7 +40,9 @@
 						<hr>
 
 						<br>
+						</div>
 
+						<div>
 						<h2>Why Coding?
 							<br>
 							<small>June 29.2016</small>
@@ -35,6 +51,7 @@
 						<p class="blog">Why not?</p><br>
 						<a href="why-coding.php" class="btn btn-default btn-lg">Read More</a>
 						<hr>
+						
 
 						
 
