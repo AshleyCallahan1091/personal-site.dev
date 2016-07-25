@@ -32,7 +32,13 @@
 
 						<p class="blog-center"><span class="blog">Opening question/topic</span> </p>
 
-						<!-- Blog text - classes in css are: blog(font, size), blog-left and blog-center (alignment), blog-big and blog-small (font size override) -->
+						<!-- Blog text - classes in css are: blog(font, size), blog-left and blog-center (alignment), blog-big and blog-small (font size override) 
+
+						special characters: 
+
+						' = &#39;
+						( = &#40;
+						) = &#41;-->
 
 						<p></p>
 						
