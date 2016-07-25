@@ -42,7 +42,7 @@
 						<br>
 						</div>
 
-						<div>
+						<div class="col-lg-12 text-center">
 						<h2>Why Coding?
 							<br>
 							<small>June 29.2016</small>
